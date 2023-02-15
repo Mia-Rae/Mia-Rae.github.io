@@ -1,0 +1,37 @@
+
+obsidian_folder_path_str: '../Knowledge/'
+obsidian_entrypoint_path_str: '../Knowledge/3-Resources/🎲 DnD//DnD Index.md'
+
+html_custom_inclusions:
+  - '<link rel="stylesheet" href="/custom.css" />'
+
+site_name: 'Mia DnD'
+
+toggles:
+
+  preserve_inline_tags: False
+
+  features:
+    styling: 
+      layout: minimal
+      accent_color: '#E93AE3'
+      add_toc: False
+      toc_pane: True
+      max_note_width: 52rem
+
+    graph:
+      enabled: False
+    search:
+      enabled: False
+    backlinks:
+      enabled: False
+
+    breadcrumbs:
+      enabled: True
+
+    tags_page:
+      enabled: False
+      styling:
+        show_icon: False
+        show_in_note_footer: False
+        
