@@ -27,6 +27,10 @@ toggles:
       enabled: False
     backlinks:
       enabled: False
+    mermaid_diagrams:
+      enabled: False
+    math_latex:
+      enabled: False
 
     breadcrumbs:
       enabled: True

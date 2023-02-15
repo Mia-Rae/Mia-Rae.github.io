@@ -2,7 +2,7 @@
 // ----------------------------------------------------------------------------
 // Globals (filled in by backend)
 var no_tab_mode = 1;
-var mermaid_enabled = 1;
+var mermaid_enabled = 0;
 var toc_pane_div = "";
 var dir_index_pane_div = "";
 var html_url_prefix = "";

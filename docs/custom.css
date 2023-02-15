@@ -7,6 +7,7 @@
 
 :root {
   --body-background-color: #F5F5F5;
+  --linkcol: #875fdd;
   --textcol: #1a1a1a; 
   --textcol-h: black; 
   --imgcol: lightgrey;
@@ -16,6 +17,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --body-background-color: #101010;
+    --linkcol: #a785f2;
     --textcol: #F5F5F5;
     --textcol-h: #F8F8F8;
     --imgcol: #202020;
@@ -25,7 +27,6 @@
 
 
 body {
-    min-height: 100vh !important;
     background-color: var(--body-background-color) !important;
 }
 
@@ -41,6 +42,8 @@ body {
         height: 100% !important;
     }
 }
+
+.container::after { display: none; }
 
 
 /* Background Design */
@@ -73,7 +76,7 @@ body {
 /* Cotent Items Design */
 .callout { background-color: transparent !important; }
 
-a { color: #E93AE3 !important; }
+a { color: var(--linkcol) !important; }
 
 hr { 
     margin-top: 3rem !important;
