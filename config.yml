@@ -3,6 +3,7 @@ obsidian_folder_path_str: '../Knowledge/'
 obsidian_entrypoint_path_str: '../Knowledge/3-Resources/🎲 DnD//DnD Index.md'
 html_output_folder_path_str: 'docs'
 
+html_template_path_str: 'template.html'
 html_custom_inclusions:
   - '<link rel="stylesheet" href="/custom.css" />'
 
